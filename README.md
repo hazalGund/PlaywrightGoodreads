@@ -10,7 +10,6 @@ Follow the steps here to get started in Playwright: [Playwright Intro](https://p
 
 ```terminal
 npx playwright test
-
 ```
 
 ## Notes

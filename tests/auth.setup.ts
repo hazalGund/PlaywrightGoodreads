@@ -16,8 +16,8 @@ setup("authenticate", async ({ page }) => {
 
   await expect(page).toHaveTitle(data.authentication.thirdTitle);
 
-  await page.locator("#ap_email").fill("hazalgunduz@yahoo.com");
-  await page.locator("#ap_password").fill("Asdfasdf123");
+  await page.locator("#ap_email").fill(data.authentication.username);
+  await page.locator("#ap_password").fill(data.authentication.password);
   await page.locator("#signInSubmit").click();
 
   await expect(page).toHaveTitle(data.authentication.homePageTitle);
