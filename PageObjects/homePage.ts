@@ -46,9 +46,4 @@ export class HomePage {
   async saveUpdate() {
     await this.updateSaveButton.click();
   }
-
-  async gotoMyProfile() {
-    await this.personIcon.click();
-    await this.profileLink.click();
-  }
 }

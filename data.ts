@@ -1,7 +1,7 @@
 export const data = {
   baseUrl: "https://www.goodreads.com/",
   authentication: {
-    username:'hazalgunduz@yahoo.com',
+    username:'gunduzhazal@outlook.com',
     userFirstName: 'Hazal',
     password: 'Asdfasdf123',
     firstTtitle: /Goodreads | Meet your next favorite book/,
@@ -13,5 +13,6 @@ export const data = {
     searchedBook: "Notes From Underground",
     searchResultTitle: /Search results for \"Notes From Underground\"/,
   },
-  generalUpdateText: 'I love books!'
+  generalUpdateText: 'I love books!',
+  profileUrl: 'https://www.goodreads.com/user/show/175589037-hazal'
 };

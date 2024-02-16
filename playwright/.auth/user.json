@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "ccsid",
-      "value": "359-5717962-3847631",
+      "value": "919-0460097-5135213",
       "domain": "www.goodreads.com",
       "path": "/",
-      "expires": 1742653855.11742,
+      "expires": 1742679122.432932,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -22,30 +22,30 @@
     },
     {
       "name": "UID",
-      "value": "1F8c274800dc1d2f75020ae1708093855",
+      "value": "1328cc655bb9ade1cbd52ef1708119122",
       "domain": ".scorecardresearch.com",
       "path": "/",
-      "expires": 1742653856.157012,
+      "expires": 1742679123.472664,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "mc",
-      "value": "65cf719f-bfbe7-8a629-cd99f",
+      "value": "65cfd453-1457f-d1b82-b6edd",
       "domain": ".quantserve.com",
       "path": "/",
-      "expires": 1742308255.798979,
+      "expires": 1742333523.06501,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__qca",
-      "value": "P0-1205999106-1708093855648",
+      "value": "P0-1991725117-1708119122939",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1741962655,
+      "expires": 1741987923,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -55,17 +55,17 @@
       "value": "2",
       "domain": "www.goodreads.com",
       "path": "/",
-      "expires": 1742653856.018005,
+      "expires": 1742679123.293756,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "session-id",
-      "value": "140-6484537-7879345",
+      "value": "142-2404742-2250264",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.643883,
+      "expires": 1739655124.860106,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -75,77 +75,77 @@
       "value": "en_US",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629856.36438,
+      "expires": 1739655123.698789,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "csm-hit",
-      "value": "tb:s-A0A939MZ6FC5Y9FQQKNS|1708093856568&t:1708093856568",
+      "value": "tb:s-9BPQZ3T18CW8GTJ96MG3|1708119123912&t:1708119123912",
       "domain": "www.goodreads.com",
       "path": "/",
-      "expires": 1738333856,
+      "expires": 1738359123,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "session-id-time",
-      "value": "2338813857l",
+      "value": "2338839124l",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.644049,
+      "expires": 1739655124.860208,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "ubid-main",
-      "value": "135-6000933-0194748",
+      "value": "134-3819929-8804041",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.64415,
+      "expires": 1739655124.860262,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "session-token",
-      "value": "\"gKYbmzTP3NruRtbVYqi1H8fYjBQSO4al0LA9f9sMzgXr9Qv9ErRxRcXH24zhsp/i+luYz95uCjJkT9So3ImlwRQugihV7ayef3HkDjq/G1mMyZPv2k3fBwGZqGkGLSYgigdPfx9ZyjgBVW5RGBFH/BL7Ey8bqC9h1QDEheEDKm12Hq8Oy5cMkovYdruVHOG4O7m1a0f8PPXjBcE35Nt5RUmqxYQQmBUJzparFdPiTVECw9JsbXcdcHmxPhR4km0GzKSwU+JSscGG6YewcBaRep7sPQnl/epG0X22ojqXFLyKuJsUT2Xkl3pAvzJqBqnFZ6x4Ru6pLmPyhAsPH9UcPRJi5SNhWSCkPZ5z8/E5JBw=\"",
+      "value": "\"W0I/aj4JZuOd7au8nXtbJtiGOza5ma+u611xnIzM26WMGyNNDVXTJfxU+SQCsygr26pQUgFmORda3rEhMvUr/aXI4Sr6BHXmXRT4TWuaCwmUWHXDP/aEEDXmb2R3CLZS96OrUIB24fMkCUJjWq0iZUCY3a2dzszX15otdPot5LkCyQlJ2HIM13ycvRIzroBrJSX9yMIoWkkKSL9Sg5XZB0zBy/LY2fJFscwh0Nur9O6lsqb1Uw/OmoDT9n53VCt1Ok53+Ix+NwtdBCw/9rpElSCA7SMLVPCrk+WYaNP0DjeKJNTRFrszgZKEOu6gd71PBEiemr2M2HNw6JC/GvSNzmb2N9OSZUBggEvAqcHnKzU=\"",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.644237,
+      "expires": 1739655124.86031,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "x-main",
-      "value": "\"WtTmYrDuqaVOqMh?tA9ixTxiMC6nG1p1LX2Y0Ru4CQYz41OINuAxKo@O4EAWSSxI\"",
+      "value": "\"sSK4ByPUC1rsDHsTCPgMkph@FFLFsh7iRyoOyxe700sFGeOT8nE64eB1WgutrFqE\"",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.6443,
+      "expires": 1739655124.860348,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "at-main",
-      "value": "Atza|IwEBIMxVwPmhXH-7s7heWnUiDCpV754WdKOtgBcvVbQYXWuW3dJVk5EIFnPfvnuMvjbfSVTzLTvltpiltWqy4qGHAHAQAFPtdm_XByHXpHRwKmTa7MTBXTLOmrZdLD_rZHG9aM4zgQm_3ljhpJmudT3p-SPo0MdbhKFw_CwsVmEYt3Ukid5NimLgqwygb3KZdqDOcI3iFW1VkmaUhNNNgS9wfLp6LZHpK6JqsCcHe0m1jDzlfbJ8aaWJY3X0K0aBQz9I9Kg",
+      "value": "Atza|IwEBIGucF5Uf6vSJ5gC6kBXfbMaVBU3StJU0Zk8nGh5uK3ht7_zUaPgO2-4GcY8IXpO4c349LCgJ9i3QD9gcn5rl78SqO0DPDLuu6d8YNjWNDUyhIS208LWWR9bdCzAgfpTzpaktE7YalTdNghH7ayyJNmEz6Bd4rxN6eODkUhFI50rx3Auo7GJ8PuwkV4y6CwYTTsiF_ncj5x8ZuhwnOvb0Jtthl6lgNOVKfhzGGehFq7g1f4UC195ZEYOY2ckAwiBEZ4s",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.64435,
+      "expires": 1739655124.860381,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "sess-at-main",
-      "value": "\"QuSUwQOTFmckevLMtesZXrMaG4z0Wj+9i29jR/n7GD0=\"",
+      "value": "\"r8qxBXVsl8VSPTxXaIWe/lt6VxBXQj/wcQAYlLHSkvw=\"",
       "domain": ".goodreads.com",
       "path": "/",
-      "expires": 1739629857.644433,
+      "expires": 1739655124.860427,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -155,17 +155,17 @@
       "value": "true",
       "domain": "www.goodreads.com",
       "path": "/",
-      "expires": 1715869857.832549,
+      "expires": 1715895125.047253,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_session_id2",
-      "value": "8dcab7cb452ec6717a4170045e75e89d",
+      "value": "cba0038c28e873132922876acd587811",
       "domain": "www.goodreads.com",
       "path": "/",
-      "expires": 1708115458.448032,
+      "expires": 1708140725.68099,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -176,28 +176,28 @@
       "origin": "https://www.goodreads.com",
       "localStorage": [
         {
-          "name": "__qca",
-          "value": "{\"value\":\"P0-1205999106-1708093855648\",\"expiry\":1741962655799}"
+          "name": "csa-ctoken-Q6SVEW9VE8CYC8HB43WQ",
+          "value": "1708122725705"
         },
         {
-          "name": "csa-ctoken-79HMN6EN82TMAVSCGEAV",
-          "value": "1708097456115"
+          "name": "__qca",
+          "value": "{\"value\":\"P0-1991725117-1708119122939\",\"expiry\":1741987923065}"
+        },
+        {
+          "name": "csa-ctoken-G1S8J5WV9ZH4Y0ZH2YFB",
+          "value": "1708122722804"
         },
         {
           "name": "csm-hit",
-          "value": "tb:s-A0A939MZ6FC5Y9FQQKNS|1708093856568&t:1708093856568"
-        },
-        {
-          "name": "csa-ctoken-J65H6BKSQ7F3HBG1ZJGC",
-          "value": "1708097455309"
+          "value": "tb:s-9BPQZ3T18CW8GTJ96MG3|1708119123912&t:1708119123912"
         },
         {
           "name": "csa-tabbed-browsing",
-          "value": "{\"lastActive\":{\"visible\":true,\"pid\":\"p1w22v-ohm5p2-nem84s-gakrdg\",\"tid\":\"s4p5rf-le9pz2-m218hf-ja3wxd\"},\"lastInteraction\":{\"id\":\"mq6vmt-aw9fdu-f969he-bh0974\",\"used\":true},\"time\":1708093858477}"
+          "value": "{\"lastActive\":{\"visible\":true,\"pid\":\"ytojvo-xn3tpv-tvoz6r-it2vfo\",\"tid\":\"s6xd0s-o36v9s-y6kkmo-if8zj4\"},\"lastInteraction\":{\"id\":\"682nk-cgw9rj-7zq6w3-4lmhc3\",\"used\":true},\"time\":1708119125705}"
         },
         {
-          "name": "csa-ctoken-Q05N5C3XRHFATJWM8NJA",
-          "value": "1708097458476"
+          "name": "csa-ctoken-JX3NHM4HV7GTGJWT1G54",
+          "value": "1708122723386"
         }
       ]
     }

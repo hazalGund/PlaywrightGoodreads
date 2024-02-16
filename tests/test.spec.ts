@@ -1,4 +1,11 @@
-import { test, expect } from "@playwright/test";
+import {
+  test,
+  expect,
+  Page,
+  chromium,
+  BrowserContext,
+  Browser,
+} from "@playwright/test";
 import { data } from "../data";
 import { HomePage } from "../PageObjects/homePage";
 import { ProfilePage } from "../PageObjects/profilePage";
@@ -23,6 +30,26 @@ test("share a general update", async ({ page }) => {
   await homePage.writeGeneralUpdate();
   await homePage.saveUpdate();
 
-  await homePage.gotoMyProfile();
+  await profilePage.navigateToProfilePage();
   await expect(profilePage.updateExpectedText).toBeVisible();
+
 });
+
+test.afterAll("teardown", async ({}) => {
+  let browser: Browser;
+  let context: BrowserContext;
+  let page: Page;
+
+  browser = await chromium.launch();
+  context = await browser.newContext();
+  page = await context.newPage();
+
+  const profilePage = new ProfilePage(page);
+
+  await profilePage.navigateToProfilePage();
+  await expect(profilePage.updateExpectedText).toBeVisible();
+
+  await profilePage.deleteUpdate();
+});
+
+
