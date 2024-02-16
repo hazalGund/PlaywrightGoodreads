@@ -1,0 +1,205 @@
+{
+  "cookies": [
+    {
+      "name": "ccsid",
+      "value": "151-6980147-6488043",
+      "domain": "www.goodreads.com",
+      "path": "/",
+      "expires": 1742646726.922278,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "locale",
+      "value": "en",
+      "domain": "www.goodreads.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UID",
+      "value": "16Bf5bc5fd4bad0ce3c5f4f1708086727",
+      "domain": ".scorecardresearch.com",
+      "path": "/",
+      "expires": 1742646727.899124,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mc",
+      "value": "65cf55c7-83428-b3deb-c4a88",
+      "domain": ".quantserve.com",
+      "path": "/",
+      "expires": 1742301127.518301,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__qca",
+      "value": "P0-1300329102-1708086727366",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1741955527,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "logged_out_browsing_page_count",
+      "value": "2",
+      "domain": "www.goodreads.com",
+      "path": "/",
+      "expires": 1742646727.722118,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-id",
+      "value": "147-7333093-3612739",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858079,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-id-time",
+      "value": "2338806728l",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858225,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lc-main",
+      "value": "en_US",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.108229,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csm-hit",
+      "value": "tb:s-8W2ZZEDYTZC60ENRCKXK|1708086728282&t:1708086728282",
+      "domain": "www.goodreads.com",
+      "path": "/",
+      "expires": 1738326728,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ubid-main",
+      "value": "135-0853170-1414451",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858322,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-token",
+      "value": "\"+2UOjQy7bcJI5q/Bn8v50rRaaK0nPLxgCi+Pkj/8J+JsGbGujGXtYhew0G2i6ihagXNTS3iLbVlBPA71s4ACkHuG0b2hEXGvY094cYdV6nPDk4P5tFeIOH0vksfgGlPewb1H1s6Aiaqb+5Zpa7MUug+OOXV2e5DDQNFBRSPn10DsRvnO6F5qf+jzlQwGQkDPSz3jR+Jt4hPdvcfv4H9XzJq+1KKH+d2eCJUWSF1h3sP8EOsWWlCeFkfMrMnXT6WnsnpWCwH6c07o+rv4fuWvLvqErciTGgs2KnVSKESES2DJpealyCER3EtDVe+AC2FWX5iJ1DFh/UChN5KVzyBCk/i+20iY40N9DQyEfcLPxVA=\"",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858399,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x-main",
+      "value": "t49duM4QLlHqT3OF9s476wP9MmQSY4NAGC0K0lsjgACxG0vWtFFOArwMHuSl3xRg",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858457,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "at-main",
+      "value": "Atza|IwEBIMsIKd5MbZBSDT5NWFpCNGyYqRr61K8aFhf1PSsskcdMJ5uGmJW1mfK0rlU5a77v6SSYoaEi4KkymCjOkHk99KVm6Iihr3a42tv3_jMoG5yRmtEOQOqfdMkFcIn4Cy6fnyLoH4k45EPpXa5iIbkDCRU5PKlIKGdp5n0IeAWeo6A1fbbgfKZFiZL5KvpaZyJXVpPFQGuqxYjQxpdRM2JYpjJ_HW3xys9RuI-1jMG9q67rgDu0mzlsCphR0CoxMR_kXSA",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858533,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sess-at-main",
+      "value": "\"amhUIUsuBIVzr5MCWOdGYxG9p818MHZGGBN5fwppApk=\"",
+      "domain": ".goodreads.com",
+      "path": "/",
+      "expires": 1739622728.858625,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "likely_has_account",
+      "value": "true",
+      "domain": "www.goodreads.com",
+      "path": "/",
+      "expires": 1715862729.040298,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_session_id2",
+      "value": "4865b0b3430a705a4c2b80419d73b534",
+      "domain": "www.goodreads.com",
+      "path": "/",
+      "expires": 1708108329.558825,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.goodreads.com",
+      "localStorage": [
+        {
+          "name": "__qca",
+          "value": "{\"value\":\"P0-1300329102-1708086727366\",\"expiry\":1741955527519}"
+        },
+        {
+          "name": "csa-ctoken-WPR1S0QPGG32E7TKN5GD",
+          "value": "1708090327277"
+        },
+        {
+          "name": "csm-hit",
+          "value": "tb:s-8W2ZZEDYTZC60ENRCKXK|1708086728282&t:1708086728282"
+        },
+        {
+          "name": "csa-ctoken-K16TM0DRKMJGKHN7XBKN",
+          "value": "1708090327851"
+        },
+        {
+          "name": "csa-ctoken-8R7ZAFHVZ91111KPQR4K",
+          "value": "1708090329590"
+        },
+        {
+          "name": "csa-tabbed-browsing",
+          "value": "{\"lastActive\":{\"visible\":true,\"pid\":\"b6lh78-ymf6ih-hlleeh-fztvrf\",\"tid\":\"765e22-8039ka-egoihp-8nmzde\"},\"lastInteraction\":{\"id\":\"r2przp-qhghwv-vk6fs2-mixm9r\",\"used\":true},\"time\":1708086729590}"
+        }
+      ]
+    }
+  ]
+}
