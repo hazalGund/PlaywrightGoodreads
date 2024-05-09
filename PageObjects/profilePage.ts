@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { otherData } from "../data";
+import { profileData } from "../data";
 
 class ProfilePage {
   readonly page: Page;
@@ -9,7 +9,7 @@ class ProfilePage {
   }
 
   async navigateToProfilePage() {
-    await this.page.goto(otherData.profileUrl);
+    await this.page.goto(profileData.url);
   }
 }
 export default ProfilePage;

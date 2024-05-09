@@ -24,7 +24,7 @@ export const searchData: { searchedBook: string; searchResultTitle: any } = {
   searchedBook: "Notes From Underground",
   searchResultTitle: /Search results for \"Notes From Underground\"/,
 };
-export const otherData: {generalUpdateText: string, profileUrl: string } = {
-  generalUpdateText: "I love books!",
-  profileUrl: "https://www.goodreads.com/user/show/175589037-hazal",
+export const profileData: { url: string, userFirstName: string } = {
+  url: "https://www.goodreads.com/user/show/175589037-hazal",
+  userFirstName: "Hazal"
 };
