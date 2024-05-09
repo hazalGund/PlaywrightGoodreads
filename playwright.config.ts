@@ -30,20 +30,12 @@ export default defineConfig({
     trace: "on-first-retry",
   },
 
-  /* Configure projects for major browsers */
   projects: [
-    // Setup project
-    { name: "setup", testMatch: /.*\.setup\.ts/ },
     {
-      name: "chromium",
-      use: {
-        ...devices["Desktop Chrome"],
-        storageState: "playwright/.auth/user.json",
-      },
-      dependencies: ["setup"],
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
     },
-  ],
-
+  ]
   /* Run your local dev server before starting the tests */
   // webServer: {
   //   command: 'npm run start',

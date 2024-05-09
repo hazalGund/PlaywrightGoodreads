@@ -1,7 +1,8 @@
 import { Locator, Page } from "@playwright/test";
-import { data } from "../data";
+import { baseData, loginData, otherData, searchData } from "../data";
 
-export class HomePage {
+
+class HomePage {
   readonly page: Page;
   readonly searchbar: Locator;
   readonly generalUpdateButton: Locator;
@@ -22,16 +23,16 @@ export class HomePage {
     this.updateSaveButton = page.getByRole("button", { name: "Save" });
     this.personIcon = page
       .getByRole("button")
-      .getByAltText(data.authentication.userFirstName);
+      .getByAltText(loginData.userFirstName);
     this.profileLink = page.getByRole("list").getByLabel("Profile");
   }
 
   async gotoHomePage() {
-    await this.page.goto(data.baseUrl);
+    await this.page.goto(baseData.url);
   }
 
   async searchBook() {
-    await this.searchbar.fill(data.search.searchedBook);
+    await this.searchbar.fill(searchData.searchedBook);
     await this.page.keyboard.press("Enter");
   }
 
@@ -40,10 +41,11 @@ export class HomePage {
   }
 
   async writeGeneralUpdate() {
-    await this.generalUpdateTextArea.fill(data.generalUpdateText);
+    await this.generalUpdateTextArea.fill(otherData.generalUpdateText);
   }
 
   async saveUpdate() {
     await this.updateSaveButton.click();
   }
 }
+export default HomePage;

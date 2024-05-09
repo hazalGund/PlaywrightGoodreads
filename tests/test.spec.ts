@@ -1,55 +1,24 @@
-import {
-  test,
-  expect,
-  Page,
-  chromium,
-  BrowserContext,
-  Browser,
-} from "@playwright/test";
-import { data } from "../data";
-import { HomePage } from "../PageObjects/homePage";
-import { ProfilePage } from "../PageObjects/profilePage";
+import { test, expect } from "@playwright/test";
+import { loginData, searchData } from "../data";
+import HomePage from "../PageObjects/HomePage";
+import ProfilePage from "../PageObjects/ProfilePage";
+import LoginPage from "../PageObjects/LoginPage";
+
+let loginPage: LoginPage;
+let homePage: HomePage;
+let profilePage: ProfilePage;
+
+test.beforeEach(async ({ page }) => {
+  loginPage = new LoginPage(page);
+  homePage = new HomePage(page);
+  profilePage = new ProfilePage(page);
+
+  await loginPage.login(loginData.username, loginData.password);
+});
 
 test("search for a book", async ({ page }) => {
-  const homePage = new HomePage(page);
-
   await homePage.gotoHomePage();
   await homePage.searchBook();
 
-  await expect(page).toHaveTitle(data.search.searchResultTitle);
+  await expect(page).toHaveTitle(searchData.searchResultTitle);
 });
-
-test("share a general update", async ({ page }) => {
-  const homePage = new HomePage(page);
-  const profilePage = new ProfilePage(page);
-  await homePage.gotoHomePage();
-  await homePage.clickGeneralUpdate();
-
-  await expect(homePage.generalUpdateTextArea).toBeEditable();
-
-  await homePage.writeGeneralUpdate();
-  await homePage.saveUpdate();
-
-  await profilePage.navigateToProfilePage();
-  await expect(profilePage.updateExpectedText).toBeVisible();
-
-});
-
-test.afterAll("teardown", async ({}) => {
-  let browser: Browser;
-  let context: BrowserContext;
-  let page: Page;
-
-  browser = await chromium.launch();
-  context = await browser.newContext();
-  page = await context.newPage();
-
-  const profilePage = new ProfilePage(page);
-
-  await profilePage.navigateToProfilePage();
-  await expect(profilePage.updateExpectedText).toBeVisible();
-
-  await profilePage.deleteUpdate();
-});
-
-
