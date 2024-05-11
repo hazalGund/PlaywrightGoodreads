@@ -28,6 +28,10 @@ export const profileData: { userFirstName: string } = {
   userFirstName: "Hazal",
 };
 
+export const currentlyReadingData: { bookName: string } = {
+  bookName: "The Pragmatic Programmer: From Journeyman to Master"
+}
+
 export const readingChallengeData: { numberOfBooks: string } = {
   numberOfBooks: "10",
 };

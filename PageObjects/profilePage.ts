@@ -1,4 +1,5 @@
 import { Locator, Page } from "@playwright/test";
+import { currentlyReadingData } from "../data";
 
 class ProfilePage {
   readonly page: Page;
@@ -19,7 +20,7 @@ class ProfilePage {
     try {
       // Wait for the presence of the element
       await this.page.waitForSelector(
-        'a[title="The Pragmatic Programmer: From Journeyman to Master"]'
+        'a[title="'+ currentlyReadingData.bookName +'"]'
       );
 
       console.log("Element is present on the page.");
