@@ -24,7 +24,10 @@ export const searchData: { searchedBook: string; searchResultTitle: any } = {
   searchedBook: "Notes From Underground",
   searchResultTitle: /Search results for \"Notes From Underground\"/,
 };
-export const profileData: { url: string, userFirstName: string } = {
-  url: "https://www.goodreads.com/user/show/175589037-hazal",
-  userFirstName: "Hazal"
+export const profileData: { userFirstName: string } = {
+  userFirstName: "Hazal",
+};
+
+export const readingChallengeData: { numberOfBooks: string } = {
+  numberOfBooks: "10",
 };
